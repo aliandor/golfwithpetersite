@@ -52,7 +52,7 @@ const Card = styled.div`
   box-shadow: 0px 5px 5px rgba(136, 136, 136, 0.9);
 `
 const LessonPrice = styled.div`
-  grid-column: 1;
+  grid-column: 1/ -1;
   grid-row: 2;
 `
 

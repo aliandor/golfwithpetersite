@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import LessonCard from './lessonCard'
 import Headline from '../brand'
-import { Individual, Junior, Group } from './cardInfo'
+import { Individual, Junior, Group, BagMapping } from './cardInfo'
 
 const Main = () => {
   return (
@@ -37,6 +37,13 @@ const Main = () => {
           desc={Group.desc}
           icons={Group.icons}
         />
+        <LessonCard
+          img={BagMapping.img}
+          price={BagMapping.price}
+          type={BagMapping.type}
+          desc={BagMapping.desc}
+          icons={BagMapping.icons}
+        />
       </Cards>
     </Lessons>
   )
@@ -57,7 +64,7 @@ const Cards = styled.div`
   display: grid;
   grid-gap: 1rem;
   justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 `
 
 const Tag = styled.div`
