@@ -64,7 +64,7 @@ const Cards = styled.div`
   display: grid;
   grid-gap: 2rem 1rem;
   justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 `
 
 const Tag = styled.div`
