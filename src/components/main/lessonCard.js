@@ -86,7 +86,7 @@ const CardIcons = styled.div`
     display: grid;
     grid-row-gap: 0.25rem;
     p {
-      width: 89%;
+      width: 75%;
       font-size: 0.725rem;
       text-align: center;
       justify-self: center;

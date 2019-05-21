@@ -64,7 +64,7 @@ const Form = () => {
             <select name="Class-type" required>
               <option value="Adult">Adult - $55 - 30 mins</option>
               <option value="Junior">Junior - $45 - 30 mins</option>
-              <option value="Group">Group - $120 - 60mins</option>
+              <option value="Group">Group - $120 - 60 mins</option>
               <option value="Bag Mapping">Bag Mapping - $95 - 75mins</option>
             </select>
           </Lesson>

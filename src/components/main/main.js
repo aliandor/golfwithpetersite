@@ -62,7 +62,7 @@ const Lessons = styled.main`
 
 const Cards = styled.div`
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem 1rem;
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 `
