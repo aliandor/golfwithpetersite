@@ -7,7 +7,7 @@ const ContactMe = () => {
   return (
     <Layout>
       <Wrap>
-        <Form name="contact-me" method="post" data-netlify="true">
+        <Form name="contact-me" method="post" data-netlify-recaptcha="true" data-netlify="true">
           <input type="hidden" name="form-name" value="contact-me" />
           <h1>Contact Me</h1>
           <FormInput>
@@ -44,6 +44,7 @@ const ContactMe = () => {
               required
             />
           </FormInputTA>
+          <div data-netlify-recaptcha="true"></div>
           <MainButton contact="14px">Submit</MainButton>
         </Form>
       </Wrap>
