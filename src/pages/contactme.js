@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import Layout from '../components/layout/layout'
 import MainButton from '../components/layout/MainButton'
@@ -7,27 +7,45 @@ const ContactMe = () => {
   return (
     <Layout>
       <Wrap>
-      <Form name='contact-me' method='post' data-netlify='true'>
-        <input type='hidden' name='form-name' value='contact-me' />
-        <h1>Contact Me</h1>
-        <FormInput>
-          <label for='name'>Name</label>
-          <input id='name' name='user_name' placeholder='Name' required></input>
-        </FormInput>
-        <FormInput>
-          <label for='Phone'>Phone (eg. 111-222-3333)</label>
-          <input id='Phone' name='user_phone' placeholder='Phone (eg. 111-222-3333)' pattern='\d{3}-\d{3}-\d{4}' required></input>
-        </FormInput>        
-        <FormInput>
-          <label for='Email'>Email</label>
-          <input id='Email' name='user_email' placeholder='Email' required></input>
-        </FormInput>
-        <FormInputTA>
-          <label for='text'>How can I help you?</label>
-          <textarea name='user_text' id='text' placeholder='How can I help you?' required></textarea>
-        </FormInputTA>
-        <MainButton contact='14px'>Submit</MainButton>
-      </Form>
+        <Form name="contact-me" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact-me" />
+          <h1>Contact Me</h1>
+          <FormInput>
+            <label for="name">Name</label>
+            <input id="name" name="user_name" placeholder="Name" required />
+          </FormInput>
+          <FormInput>
+            <label for="Phone">Phone (eg. 111-222-3333)</label>
+            <input
+              id="Phone"
+              type="tel"
+              name="user_phone"
+              placeholder="Phone (eg. 111-222-3333)"
+              pattern="\d{3}-\d{3}-\d{4}"
+              required
+            />
+          </FormInput>
+          <FormInput>
+            <label for="Email">Email</label>
+            <input
+              id="Email"
+              type="email"
+              name="user_email"
+              placeholder="Email"
+              required
+            />
+          </FormInput>
+          <FormInputTA>
+            <label for="text">How can I help you?</label>
+            <textarea
+              name="user_text"
+              id="text"
+              placeholder="How can I help you?"
+              required
+            />
+          </FormInputTA>
+          <MainButton contact="14px">Submit</MainButton>
+        </Form>
       </Wrap>
     </Layout>
   )
@@ -42,7 +60,7 @@ const Wrap = styled.div`
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-around;
-`;
+`
 
 const Form = styled.form`
   padding: 0 1rem;
@@ -58,7 +76,7 @@ const Form = styled.form`
   justify-content: center;
   h1 {
     font-size: 2rem;
-    color: #10B523;
+    color: #10b523;
   }
   label {
     opacity: 0;
@@ -67,10 +85,10 @@ const Form = styled.form`
     border: none;
     border-bottom: 2px solid lightgray;
     &:focus {
-      border-bottom: 2px solid #10B523;
+      border-bottom: 2px solid #10b523;
     }
   }
-`;
+`
 
 const FormInputTA = styled.div`
   display: flex;
@@ -80,7 +98,7 @@ const FormInputTA = styled.div`
     height: 100px;
     padding: 0 5px;
     &:focus {
-      outline: 1px solid #10B523;
+      outline: 1px solid #10b523;
       &::placeholder {
         opacity: 0;
       }
@@ -90,8 +108,8 @@ const FormInputTA = styled.div`
     label {
       opacity: 0.7;
     }
-  }  
-`;
+  }
+`
 const FormInput = styled.div`
   /* padding: 0 1rem; */
   display: flex;
@@ -100,7 +118,7 @@ const FormInput = styled.div`
   input {
     outline: none;
     &:focus {
-      border-bottom: 3px solid #10B523;
+      border-bottom: 3px solid #10b523;
       &::placeholder {
         opacity: 0;
       }
@@ -110,8 +128,8 @@ const FormInput = styled.div`
     label {
       opacity: 0.7;
     }
-  }  
-`;
+  }
+`
 
 // const Button = styled.button`
 //   height: 64px;

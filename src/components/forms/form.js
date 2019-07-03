@@ -40,7 +40,7 @@ const Form = () => {
         <Field>
           <HiddenLabel for="phone">Phone (eg. 111-222-3333)</HiddenLabel>
           <input
-            type="text"
+            type="tel"
             id="phone"
             name="user_phone"
             placeholder="Phone (eg. 111-222-3333)"
@@ -51,7 +51,7 @@ const Form = () => {
         <Field>
           <HiddenLabel for="email">E-mail</HiddenLabel>
           <input
-            type="text"
+            type="email"
             id="email"
             name="user_email"
             placeholder="E-mail"
