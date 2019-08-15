@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import TagLine from './tagline'
 import CTA from './landingBookNow'
 
-const Hero = 'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1549321485/GolfWithPeter/10DA0E91-2209-431D-A08E-A6AF277A0AB5.jpg';
+const Hero = 'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1549321485/GolfWithPeter/10DA0E91-2209-431D-A08E-A6AF277A0AB5.jpg';
 
 const Landing = () => {
   return (
