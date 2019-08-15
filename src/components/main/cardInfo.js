@@ -21,7 +21,7 @@ const Icons = {
 
 export const Individual = {
   img:
-    'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,f_auto,w_auto/v1549322970/GolfWithPeter/F78C4A8B-BE0C-4A20-BB0E-5A9BC46477C9.jpg',
+    'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1549322970/GolfWithPeter/F78C4A8B-BE0C-4A20-BB0E-5A9BC46477C9.jpg',
   price: '$55',
   type: 'Adult',
   desc:
@@ -48,7 +48,7 @@ export const Individual = {
 
 export const Junior = {
   img:
-    'https://res.cloudinary.com/dnsdvh13n/image/upload/w_auto,f_auto,q_auto:best/v1549961135/GolfWithPeter/3294.jpg',
+    'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1549961135/GolfWithPeter/3294.jpg',
   price: '$45',
   type: 'Junior',
   desc:
@@ -75,7 +75,7 @@ export const Junior = {
 
 export const Group = {
   img:
-    'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,f_auto,q_auto,w_auto/v1548745026/GolfWithPeter/activity-background-bags-424766.jpg',
+    'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1548745026/GolfWithPeter/activity-background-bags-424766.jpg',
   price: '$120',
   type: 'Group',
   desc:
@@ -102,7 +102,7 @@ export const Group = {
 
 export const BagMapping = {
   img:
-    'https://res.cloudinary.com/dnsdvh13n/image/upload/f_auto,w_auto/v1558468279/GolfWithPeter/bag-mapping.jpg',
+    'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1558468279/GolfWithPeter/bag-mapping.jpg',
   price: '$95',
   type: 'Bag Mapping',
   desc:
