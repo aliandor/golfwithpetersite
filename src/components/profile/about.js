@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 const Pic =
-  'https://res.cloudinary.com/dnsdvh13n/image/upload/f_auto,q_auto:best/v1549044105/GolfWithPeter/peter-profile.png'
+  'https://res.cloudinary.com/dnsdvh13n/image/upload/w_auto,f_auto,q_auto:best/v1549044105/GolfWithPeter/peter-profile.png'
 
 const AboutMe = () => {
   return (
