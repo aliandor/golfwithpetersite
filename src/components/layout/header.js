@@ -22,7 +22,7 @@ class Header extends Component {
   render() {
     return (
       <Nav>
-        <Btn onClick={this.handleClick} src={MenuIcon} />
+        <Btn onClick={this.handleClick} src={MenuIcon} alt="menu icon" />
         {this.state.toggle && (
           // mobile menu
           <Menu>
@@ -40,7 +40,7 @@ class Header extends Component {
           </Links>
         </Logo>
         <Links to="/contactme">
-          <Contact src={EM} />
+          <Contact src={EM} alt="quick contact icon" />
         </Links>
         <Navigation>
           <Links to="/">Home</Links>
