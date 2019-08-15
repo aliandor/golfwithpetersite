@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Price from './price'
 
-const LessonCard = ({ img, price, type, desc, icons, position }) => {
+const LessonCard = ({ img, alt, price, type, desc, icons, position }) => {
   return (
     <Card>
-      <Hero src={img} />
+      <Hero src={img} alt={alt}/>
       <LessonPrice>
         <Price type={type} price={price} />
       </LessonPrice>
