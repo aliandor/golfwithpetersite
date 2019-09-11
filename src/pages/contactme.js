@@ -89,9 +89,11 @@ const Form = styled.form`
   }
   input {
     border: none;
-    border-bottom: 2px solid lightgray;
+    /* border-bottom: 2px solid lightgray; */
+    background: #10b52344;
+    padding: 0.5rem 0;
     &:focus {
-      border-bottom: 2px solid #10b523;
+      border: 1px solid #10b523;
     }
   }
 `
@@ -103,6 +105,11 @@ const FormInputTA = styled.div`
   textarea {
     height: 100px;
     padding: 0 5px;
+    background: #10b52344;
+    border: none;
+    &::placeholder {
+      padding: 0.25rem 0;
+    }
     &:focus {
       outline: 1px solid #10b523;
       &::placeholder {
@@ -124,7 +131,6 @@ const FormInput = styled.div`
   input {
     outline: none;
     &:focus {
-      border-bottom: 3px solid #10b523;
       &::placeholder {
         opacity: 0;
       }
@@ -136,12 +142,3 @@ const FormInput = styled.div`
     }
   }
 `
-
-// const Button = styled.button`
-//   height: 64px;
-//   background: linear-gradient(to bottom right, #006234, 5%, #10B523);
-//   border: none;
-//   color: #fff;
-//   font-size: 2rem;
-//   font-weight: 600;
-// `;

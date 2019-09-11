@@ -3,21 +3,6 @@ import styled from 'styled-components'
 import FormLogo from './formLogo'
 import Brand from '../brand'
 
-let Today = new Date()
-let day = Today.getDate()
-let month = Today.getMonth() + 1
-let year = Today.getFullYear()
-let hour = Today.getHours()
-let Min = Today.getMinutes()
-let sec = Today.getSeconds()
-if (day < 10) {
-  day = `0${day}`
-}
-if (month < 10) {
-  month = `0${month}`
-}
-Today = `${year}-${month}-${day}`
-
 const Form = () => {
   return (
     <ContactPage>
@@ -38,7 +23,7 @@ const Form = () => {
           />
         </Field>
         <Field>
-          <HiddenLabel for="phone">Phone (eg. 111-222-3333)</HiddenLabel>
+          <HiddenLabel for="phone">Phone</HiddenLabel>
           <input
             type="tel"
             id="phone"
@@ -69,13 +54,13 @@ const Form = () => {
             </select>
           </Lesson>
         </Field>
-        <Field>
+        {/* <Field>
           <Lesson>
             <label>Ideal Session Date:</label>
             <input type="date" id="date" name="date" min={Today} required />
           </Lesson>
-        </Field>
-        <Field>
+        </Field> */}
+        {/* <Field>
           <Lesson>
             <label>Ideal Time:</label>
             <input
@@ -87,7 +72,7 @@ const Form = () => {
               required
             />
           </Lesson>
-        </Field>
+        </Field> */}
         <Field>
           <LessonTextArea>
             <label for="msg">Comments</label>
@@ -134,36 +119,40 @@ const Top = styled.div`
     /* peter */
     transform: translateX(-46px) translateY(26px);
   }
+  @media (min-width: 360px) {
+    padding: 0 2rem;
+  }
 `
 
 const Contact = styled.form`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(6, 40px) 100px;
+  grid-template-rows: repeat(4, 50px) 100px;
   grid-row-gap: 1.125rem;
   width: 100vw;
   max-width: 600px;
-  padding: 1rem;
+  padding: 2rem;
   justify-content: space-between;
 `
 
 const Field = styled.div`
   height: 44px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   grid-column: 1/ -1;
   /* border: 1px solid; */
   input {
     width: 100%;
     border: none;
-    border-bottom: 2px solid lightgray;
+    background: #10b52344;
+    padding: 0.5rem 0.25rem;
     &::placeholder {
       font-weight: 400px;
       color: #333;
     }
     &:focus {
       outline: #fff;
-      border-bottom: 2px solid #10b523;
+      border: 2px solid #10b523;
       &::placeholder {
         opacity: 0;
       }
@@ -189,11 +178,12 @@ const Lesson = styled.div`
   label {
     width: 50%;
     transform: translateY(20px);
+    /* background: #10b52388; */
   }
   input {
     width: 50%;
     background: none;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid #10b52344;
     &:focus {
       border-bottom: 2px solid #10b523;
     }
@@ -202,7 +192,7 @@ const Lesson = styled.div`
   select {
     background: none;
     border: none;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 4px solid #10b52344;
     &:focus {
       border-bottom: 2px solid #10b523;
     }
@@ -225,6 +215,12 @@ const LessonTextArea = styled.div`
     width: 100%;
     height: 100px;
     padding: 0 5px;
+    border: none;
+    background: #10b52344;
+    &::placeholder {
+      color: #333;
+      padding-top: 0.25rem;
+    }
     &:focus {
       outline: 1px solid #10b523;
       &::placeholder {
