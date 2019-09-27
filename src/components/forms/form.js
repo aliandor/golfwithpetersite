@@ -131,7 +131,7 @@ const Contact = styled.form`
   grid-row-gap: 1.125rem;
   width: 100vw;
   max-width: 600px;
-  padding: 2rem;
+  padding: 1rem;
   justify-content: space-between;
 `
 

@@ -91,7 +91,7 @@ const Form = styled.form`
     border: none;
     /* border-bottom: 2px solid lightgray; */
     background: #10b52344;
-    padding: 0.5rem 0;
+    padding: 0.5rem;
     &:focus {
       border: 1px solid #10b523;
     }
