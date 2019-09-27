@@ -145,7 +145,7 @@ const Field = styled.div`
     width: 100%;
     border: none;
     background: #10b52344;
-    padding: 0.5rem 0.25rem;
+    padding: 0.5rem;
     &::placeholder {
       font-weight: 400px;
       color: #333;
@@ -177,7 +177,7 @@ const Lesson = styled.div`
   align-items: flex-start;
   label {
     width: 50%;
-    transform: translateY(20px);
+    transform: translateX(7px) translateY(18px);
     /* background: #10b52388; */
   }
   input {
@@ -214,7 +214,7 @@ const LessonTextArea = styled.div`
   textarea {
     width: 100%;
     height: 100px;
-    padding: 0 5px;
+    padding: 5px;
     border: none;
     background: #10b52344;
     &::placeholder {
