@@ -122,7 +122,7 @@ const Nav = styled.div`
   width: 100vw;
   height: 50px;
   background: #fafafa;
-  padding: 0px 16px;
+  padding: 0px 12px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -132,6 +132,7 @@ const Nav = styled.div`
 
 const Btn = styled.img`
   width: 32px;
+  height: 20px;
   cursor: pointer;
   @media (min-width: 999px) {
     display: none;
@@ -140,14 +141,29 @@ const Btn = styled.img`
 
 const Contact = styled.img`
   width: 32px;
+  height: 21px;
   @media (min-width: 999px) {
     display: none;
   }
 `
 const Logo = styled.div`
+  p {
+    font-size: 12px;
+    &:nth-child(1) {
+      transform: translateX(21px) translateY(17px);
+    }
+    &:nth-child(2) {
+      transform: translateX(24px) translateY(-21px);
+    }
+    &:nth-child(3) {
+      font-size: 2rem;
+      transform: translateX(0px) translateY(12px);
+    }
+  }
+
   @media (min-width: 999px) {
     align-self: flex-start;
-    transform: translateX(-40px) translateY(-12px);
+    transform: translateX(-20px) translateY(-6px);
   }
 `
 
