@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const TagLine = () => {
   return (
@@ -8,7 +8,7 @@ const TagLine = () => {
         <span>Learn</span>
         <span>Play</span>
         <span>Grow</span>
-        <span>Golf</span>        
+        <span>Golf</span>
       </div>
       <p>With</p>
       <h1>Peter</h1>
@@ -26,13 +26,13 @@ const Tagline = styled.div`
   transform: translateX(26px);
   /* width: 100%; */
   top: 20px;
-  @media(width: 320px) {
+  @media (width: 320px) {
     /* transform: translateX(26px); */
   }
   @media (min-width: 799px) {
     top: 0px;
   }
-  @media(orientation: landscape) {
+  @media (orientation: landscape) {
     top: 0px;
   }
   span {
@@ -44,43 +44,78 @@ const Tagline = styled.div`
     font-size: 3rem;
     font-family: sans-serif;
     transform: translateX(-65px) translateY(-50px);
-    background: linear-gradient(to bottom right, #006234, 25%, #10B523);
+    background: linear-gradient(to bottom right, #006234, 25%, #10b523);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
+    /* text-fill-color: transparent; */
 
     padding: 0 1px;
     opacity: 0;
-    animation: animate 8s linear infinite;
+    animation: animate 8s ease-out infinite;
   }
   @keyframes animate {
-    0%  { opacity: 0; transform: translateX(-65px) translateY(-50px)  }
-    3%  { opacity: 1; transform: translateX(-65px) translateY(-30px)  }
-    5%  { opacity: 1; transform: translateX(-65px) translateY(-23px)  }
-    15% { opacity: 1; transform: translateX(-65px) translateY(-23px)  }
-    20% { opacity: 0; transform: translateX(-65px) translateY(-10px)  }
-    35% { opacity: 0; transform: translateX(-65px) translateY(-10px)  }
+    0% {
+      opacity: 0;
+      transform: translateX(-65px) translateY(-50px);
+    }
+    3% {
+      opacity: 0.25;
+      transform: translateX(-65px) translateY(-30px);
+    }
+    5% {
+      opacity: 0.5;
+      transform: translateX(-65px) translateY(-23px);
+    }
+    15% {
+      opacity: 1;
+      transform: translateX(-65px) translateY(-23px);
+    }
+    20% {
+      opacity: 0;
+      transform: translateX(-65px) translateY(-10px);
+    }
+    35% {
+      opacity: 0;
+      transform: translateX(-65px) translateY(-10px);
+    }
   }
   span:nth-child(1) {
     /* learn */
     animation-delay: 0s;
     transform: translateX(-66px) translateY(-50px);
     animation: Learn 8s linear infinite;
-    @keyframes Learn { 
-      0%  { opacity: 0; transform: translateX(-66px) translateY(-50px) }
-      3%  { opacity: 1; transform: translateX(-66px) translateY(-30px) }
-      5%  { opacity: 1; transform: translateX(-66px) translateY(-23px) }
-      15% { opacity: 1; transform: translateX(-66px) translateY(-23px) }
-      20% { opacity: 0; transform: translateX(-66px) translateY(-10px) }
-      35% { opacity: 0; transform: translateX(-66px) translateY(-10px) }
+    @keyframes Learn {
+      0% {
+        opacity: 0;
+        transform: translateX(-66px) translateY(-50px);
+      }
+      3% {
+        opacity: 1;
+        transform: translateX(-66px) translateY(-30px);
+      }
+      5% {
+        opacity: 1;
+        transform: translateX(-66px) translateY(-23px);
+      }
+      15% {
+        opacity: 1;
+        transform: translateX(-66px) translateY(-23px);
+      }
+      20% {
+        opacity: 0;
+        transform: translateX(-66px) translateY(-10px);
+      }
+      35% {
+        opacity: 0;
+        transform: translateX(-66px) translateY(-10px);
+      }
     }
   }
   span:nth-child(2) {
     /* play */
     animation-delay: 2s;
     letter-spacing: 2.25px;
-    
   }
   span:nth-child(3) {
     /* grow */
@@ -106,5 +141,5 @@ const Tagline = styled.div`
     padding: 0;
     margin: 0;
     color: #333;
-}
-`;
+  }
+`

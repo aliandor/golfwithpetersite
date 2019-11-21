@@ -28,7 +28,7 @@ const With = styled.p`
   grid-column: 1;
   grid-row: -1;
   font-size: 1.25rem;
-  transform: translateX(32px) translateY(-16px);
+  transform: translateX(32px) translateY(-14px);
 `
 const Peter = styled.p`
   background: linear-gradient(to bottom right, #006234, 25%, #10b523);
