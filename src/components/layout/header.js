@@ -150,7 +150,7 @@ const Logo = styled.div`
   p {
     font-size: 12px;
     &:nth-child(1) {
-      transform: translateX(22px) translateY(17px);
+      transform: translateX(22px) translateY(18px);
     }
     &:nth-child(2) {
       transform: translateX(24px) translateY(-19px);
