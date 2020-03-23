@@ -11,7 +11,7 @@ const AboutMe = () => {
       <div>
         <ProfilePic src={Pic} alt="Peter Barrow" />
         <h1>Peter Barrow</h1>
-        <h4>Head Golf Professional</h4>
+        <h2>Head Golf Professional</h2>
       </div>
       <main>
         <p>
@@ -55,7 +55,7 @@ const AboutMe = () => {
           >
             instagram
           </ExternalLinks>{' '}
-          for even more pro tips on improving at golf
+          for even more pro tips on improving at golf.
         </p>
       </main>
     </Profile>
@@ -71,16 +71,16 @@ const Profile = styled.div`
   display: flex;
   flex-flow: column nowrap;
   padding-bottom: 50px;
+  justify-items: flex-start;
   div {
+    /* border: 1px solid; */
     width: 100vw;
-    height: 200px;
-    background: linear-gradient(to bottom right, #006234, 15%, #10b523);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #fff;
+    height: 190px;
+    color: #10b523;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-    padding: 2rem 1rem;
+    padding: 1rem;
     @media (min-width: 600px) {
       h1 {
         font-size: 1.5rem;
@@ -92,11 +92,14 @@ const Profile = styled.div`
     h1 {
       grid-row: 2;
       text-align: center;
+      font-size: 1.5rem;
     }
-    h4 {
+    h2 {
       grid-row: 3;
+      font-size: 0.8rem;
       text-align: center;
       font-weight: 400;
+      color: #333;
     }
   }
   main {
@@ -104,29 +107,26 @@ const Profile = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 1rem;
-    padding: 2rem 1rem;
+    padding: 0 1rem 1rem 1rem;
     width: 100vw;
+    /* border: 1px solid; */
     p {
       max-width: 700px;
       justify-self: center;
       line-height: 1.5rem;
+      color: #333;
       @media (min-width: 600px) {
         font-size: 1.5rem;
         line-height: 2rem;
         /* opacity: 0.9; */
       }
     }
-    img {
-      width: 240px;
-      max-width: 100%;
-      height: 240px;
-      justify-self: center;
-    }
   }
 `
 
 const ProfilePic = styled.img`
-  width: 75px;
+  width: 100px;
+  height: 100px;
   grid-row: 1;
   justify-self: center;
   align-self: center;

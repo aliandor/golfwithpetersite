@@ -27,9 +27,13 @@ class Header extends Component {
           // mobile menu
           <Menu>
             <Links to="/">Home</Links>
-            <Links to="/contactme">Contact Me</Links>
+            <Links to="/contactme" className="even">
+              Contact Me
+            </Links>
             <Links to="/protips">Pro Tips</Links>
-            <Links to="/profile">About Me</Links>
+            <Links to="/profile" className="even">
+              About Me
+            </Links>
             <Links to="/form">Book Now</Links>
             <button onClick={this.handleClick} />
           </Menu>
@@ -60,20 +64,24 @@ const Menu = styled.nav`
   position: absolute;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 60px);
-  grid-auto-rows: 1fr;
-  grid-row-gap: 1rem;
+  grid-template-rows: repeat(5, 65px);
   background: #fafafa;
   width: 100vw;
   box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.125);
-  height: 55vh;
+  height: 40vh;
   top: 50px;
   left: 0;
   right: 0;
   z-index: 3;
+  a {
+    color: #333;
+  }
+  .even {
+    background: #f3f3f3;
+  }
   button {
     background: none;
-    height: 45vh;
+    height: 60vh;
     border: none;
     outline: none;
     opacity: 0;
@@ -147,6 +155,7 @@ const Contact = styled.img`
   }
 `
 const Logo = styled.div`
+  transform: translateX(-6px);
   p {
     font-size: 12px;
     &:nth-child(1) {
@@ -157,7 +166,7 @@ const Logo = styled.div`
     }
     &:nth-child(3) {
       font-size: 2rem;
-      transform: translateX(0px) translateY(12px);
+      transform: translateX(0px) translateY(13px);
     }
   }
 

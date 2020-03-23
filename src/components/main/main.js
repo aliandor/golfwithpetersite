@@ -70,6 +70,7 @@ const Cards = styled.div`
 const Tag = styled.div`
   justify-self: center;
   transform: translateX(-6px);
+  color: #333;
   p:nth-child(1) {
     /* Learn */
     transform: translateX(39px) translateY(14px);
@@ -86,11 +87,13 @@ const Tag = styled.div`
 
 const MainCopy = styled.h4`
   padding: 0 0 1.25rem 0;
+  margin: 0 auto;
+  color: #333;
   font-weight: 500;
-  /* width: 99%; */
   max-width: 600px;
-  font-size: 4vw;
+  font-size: 16px;
   text-align: center;
+  width: 75vw;
   @media (min-width: 599px) {
     /* text-align: center; */
     justify-self: center;
