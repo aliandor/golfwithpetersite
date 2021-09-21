@@ -23,7 +23,7 @@ export const Individual = {
   img:
     'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1549322970/GolfWithPeter/F78C4A8B-BE0C-4A20-BB0E-5A9BC46477C9.jpg',
   alt: 'Altadena Golf Course',
-  price: '$55',
+  price: '$60',
   type: 'Adult',
   desc:
     'This one-on-one session gives you coach Peter’s undivided attention to help you improve on the areas you want to work on.',
@@ -51,7 +51,7 @@ export const Junior = {
   img:
     'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1549961135/GolfWithPeter/3294.jpg',
   alt: 'Peter Barrow with junior lesson students',
-  price: '$45',
+  price: '$50',
   type: 'Junior',
   desc:
     'No matter the skill level of your junior golfer, coach Peter will design a framework to get you the results you desire.',
@@ -79,7 +79,7 @@ export const Group = {
   img:
     'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1548745026/GolfWithPeter/activity-background-bags-424766.jpg',
   alt: 'Peter Barrow Group Lessons',  
-  price: '$120',
+  price: '$160',
   type: 'Group',
   desc:
     'This special group package lets you and your golf crew play and learn together with coach Peter.',
@@ -107,7 +107,7 @@ export const BagMapping = {
   img:
     'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1558468279/GolfWithPeter/bag-mapping.jpg',
   alt: 'Bag Mapping Session',  
-  price: '$95',
+  price: '$120',
   type: 'Bag Mapping',
   desc:
     'This session allows you to figure out your actual carry distances: the most important number you need to know to play solid golf. No more guesswork; just numbers. ',
