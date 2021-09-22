@@ -177,8 +177,8 @@ const HiddenLabel = styled.label`
 const Lesson = styled.div`
   display: flex;
   width: 100%;
-  height: 60px;
-  background: #c4c4c444;
+//   height: 60px;
+//   background: #c4c4c444;
   justify-content: space-between;
   
   padding: 0.5rem;
@@ -200,7 +200,7 @@ const Lesson = styled.div`
   }
   select {
     background: none;
-    background: #c4c4c444;
+//     background: #c4c4c444;
     border: none;
 //     border-bottom: 4px solid #c4c4c444;
     &:focus {
