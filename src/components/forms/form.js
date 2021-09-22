@@ -202,7 +202,7 @@ const Lesson = styled.div`
     background: none;
 //     background: #c4c4c444;
     border: none;
-//     border-bottom: 4px solid #c4c4c444;
+    border-bottom: 4px solid #c4c4c444;
     &:focus {
       border-bottom: 2px solid #001a70;
     }
@@ -233,8 +233,7 @@ const LessonTextArea = styled.div`
       padding-top: 0.25rem;
     }
     &:focus {
-      outline: 1px solid #001a70;
-      -moz-outline-radius: inherit;
+      border: #001a70;
       &::placeholder {
         opacity: 0;
       }
