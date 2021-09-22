@@ -244,7 +244,7 @@ const BookNow = styled.button`
   height: 64px;
   margin-top: 1.125rem;
   background: #001a70;
-     background: linear-gradient(to bottom right, #001a70, 25%, #ffc600);
+     background: linear-gradient(to bottom right, #001a70, #ffc600, 20%);
   border: none;
   border-radius: 10px;
   color: #fff;
