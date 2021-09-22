@@ -144,7 +144,7 @@ const Field = styled.div`
   input {
     width: 100%;
     border: none;
-    background: #10b52344;
+    background: #c4c4c444;
     padding: 0.5rem;
     &::placeholder {
       font-weight: 400px;
