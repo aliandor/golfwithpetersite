@@ -145,7 +145,7 @@ const Field = styled.div`
     width: 100%;
     border: none;
     border-radius: 6px;
-    background: #c4c4c466;
+    background: #c4c4c422;
     padding: 0.5rem;
     &::placeholder {
       font-weight: 400px;
@@ -183,7 +183,7 @@ const Lesson = styled.div`
   }
   input {
     width: 50%;
-    background: #c4c4c444;
+    background: #c4c4c422;
 //     border-bottom: 2px solid #c4c4c444;
     &:focus {
 //       border-bottom: 2px solid #10b523;
@@ -193,7 +193,7 @@ const Lesson = styled.div`
   select {
     background: none;
     border: none;
-    border-bottom: 4px solid #10b52344;
+    border-bottom: 4px solid #c4c4c422;
     &:focus {
       border-bottom: 2px solid #10b523;
     }
