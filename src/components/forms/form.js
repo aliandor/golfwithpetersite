@@ -234,6 +234,7 @@ const LessonTextArea = styled.div`
     }
     &:focus {
       border: #001a70;
+      border-radius: 10px;
       &::placeholder {
         opacity: 0;
       }
