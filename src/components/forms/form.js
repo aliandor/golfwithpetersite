@@ -145,7 +145,7 @@ const Field = styled.div`
     width: 100%;
     border: none;
     border-radius: 6px;
-    background: #c4c4c444;
+    background: #c4c4c466;
     padding: 0.5rem;
     &::placeholder {
       font-weight: 400px;
@@ -218,7 +218,7 @@ const LessonTextArea = styled.div`
     padding: 5px;
     border: none;
     border-radius: 6px;
-    background: #c4c4c444;
+    background: #c4c4c466;
     &::placeholder {
       color: #333;
       padding-top: 0.25rem;
