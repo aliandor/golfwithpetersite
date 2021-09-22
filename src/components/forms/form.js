@@ -178,6 +178,7 @@ const Lesson = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  background: #c4c4c444;
   padding: 0.5rem;
   align-items: flex-start;
   label {
