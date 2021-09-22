@@ -183,10 +183,10 @@ const Lesson = styled.div`
   }
   input {
     width: 50%;
-    background: none;
-    border-bottom: 2px solid #10b52344;
+    background: #c4c4c444;
+//     border-bottom: 2px solid #c4c4c444;
     &:focus {
-      border-bottom: 2px solid #10b523;
+//       border-bottom: 2px solid #10b523;
     }
     transform: translateY(14px);
   }
