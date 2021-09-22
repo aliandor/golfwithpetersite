@@ -144,8 +144,8 @@ const Field = styled.div`
   input {
     width: 100%;
     border: none;
-    border-radius: 6px;
-    background: #c4c4c422;
+    border-radius: 10px;
+    background: #c4c4c444;
     padding: 0.5rem;
     &::placeholder {
       font-weight: 400px;
@@ -153,7 +153,7 @@ const Field = styled.div`
     }
     &:focus {
       outline: #fff;
-      border: 2px solid #10b523;
+      border: 2px solid #001a70;
       &::placeholder {
         opacity: 0;
       }
@@ -183,7 +183,7 @@ const Lesson = styled.div`
   }
   input {
     width: 50%;
-    background: #c4c4c422;
+    background: #c4c4c444;
 //     border-bottom: 2px solid #c4c4c444;
     &:focus {
 //       border-bottom: 2px solid #10b523;
@@ -193,9 +193,9 @@ const Lesson = styled.div`
   select {
     background: none;
     border: none;
-    border-bottom: 4px solid #c4c4c422;
+    border-bottom: 4px solid #c4c4c444;
     &:focus {
-      border-bottom: 2px solid #10b523;
+      border-bottom: 2px solid #001a70;
     }
     width: 50%;
     transform: translateY(18px);
@@ -217,14 +217,14 @@ const LessonTextArea = styled.div`
     height: 100px;
     padding: 5px;
     border: none;
-    border-radius: 6px;
-    background: #c4c4c466;
+    border-radius: 10px;
+    background: #c4c4c444;
     &::placeholder {
       color: #333;
       padding-top: 0.25rem;
     }
     &:focus {
-      outline: 1px solid #10b523;
+      outline: 1px solid #001a70;
       &::placeholder {
         opacity: 0;
       }
@@ -241,7 +241,7 @@ const BookNow = styled.button`
   grid-column: 1/ -1;
   height: 64px;
   margin-top: 1.125rem;
-  background: linear-gradient(to bottom right, #006234, 5%, #10b523);
+  background: 001a70;
   border: none;
   color: #fff;
   font-size: 2rem;
