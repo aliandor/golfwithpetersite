@@ -7,8 +7,9 @@ const Form = () => {
   return (
     <ContactPage>
       <Top>
-        <Brand text="Book" />
-        <FormLogo />
+      <h1>Book a lesson</h1>
+//         <Brand text="Book" />
+//         <FormLogo />
       </Top>
       <Contact name="contact" method="post" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
@@ -107,6 +108,9 @@ const Top = styled.div`
   flex-flow: row nowrap;
   align-items: flex-end;
   justify-content: space-between;
+  h1 {
+    color: #001a70;
+  }
   p:nth-child(1) {
     /* Book */
     transform: translateX(-2px) translateY(32px);
