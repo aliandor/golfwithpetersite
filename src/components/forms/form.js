@@ -102,7 +102,7 @@ const Top = styled.div`
   height: 100px;
   width: 100%;
   display: flex;
-//  padding: 0 1rem;
+  padding: 0 0.5rem;
   flex-flow: row nowrap;
   align-items: flex-end;
   justify-content: space-between; 
