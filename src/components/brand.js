@@ -31,10 +31,11 @@ const With = styled.p`
   transform: translateX(32px) translateY(-14px);
 `
 const Peter = styled.p`
-  background: linear-gradient(to bottom right, #006234, 25%, #10b523);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+//   background: linear-gradient(to bottom right, #006234, 25%, #10b523);
+//   -webkit-background-clip: text;
+//   background-clip: text;
+//   -webkit-text-fill-color: transparent;
+  background: #001a70;
   font-size: 46px;
   grid-column: -1;
   grid-row: 1/-1;
