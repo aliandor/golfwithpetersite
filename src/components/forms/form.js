@@ -128,7 +128,7 @@ const Contact = styled.form`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, 50px) 100px;
-  grid-row-gap: 1.125rem;
+  grid-row-gap: 2rem;
   width: 100vw;
   max-width: 600px;
   padding: 1rem;
@@ -162,7 +162,7 @@ const Field = styled.div`
   &:focus-within {
     label {
       opacity: 0.7;
-      font-weight: 400px;
+      font-weight: 600px;
     }
   }
 `
@@ -225,6 +225,7 @@ const LessonTextArea = styled.div`
     }
     &:focus {
       outline: 1px solid #001a70;
+      -moz-outline-radius: inherit;
       &::placeholder {
         opacity: 0;
       }
@@ -233,6 +234,7 @@ const LessonTextArea = styled.div`
   &:focus-within {
     label {
       opacity: 0.7;
+      font-weight: 600px;
     }
   }
 `
@@ -243,6 +245,7 @@ const BookNow = styled.button`
   margin-top: 1.125rem;
   background: #001a70;
   border: none;
+  border-radius: 10px;
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
