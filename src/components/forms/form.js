@@ -102,10 +102,10 @@ const Top = styled.div`
   height: 100px;
   width: 100%;
   display: flex;
-  padding: 0 1rem;
+/*  padding: 0 1rem;
   flex-flow: row nowrap;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: space-between; */
   h1 {
   font-size: 2rem;
     color: #001a70;
@@ -123,7 +123,7 @@ const Top = styled.div`
     transform: translateX(-46px) translateY(26px);
   }
   @media (min-width: 360px) {
-    padding: 0 2rem;
+//     padding: 0 2rem;
   }
 `
 
