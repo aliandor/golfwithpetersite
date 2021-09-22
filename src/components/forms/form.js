@@ -146,7 +146,7 @@ const Field = styled.div`
     border: none;
     border-radius: 10px;
     background: #c4c4c444;
-    padding: 0.5rem;
+    padding: 1rem;
     &::placeholder {
       font-weight: 400px;
       color: #333;
@@ -215,7 +215,7 @@ const LessonTextArea = styled.div`
   textarea {
     width: 100%;
     height: 100px;
-    padding: 5px;
+    padding: 10px;
     border: none;
     border-radius: 10px;
     background: #c4c4c444;
@@ -241,7 +241,7 @@ const BookNow = styled.button`
   grid-column: 1/ -1;
   height: 64px;
   margin-top: 1.125rem;
-  background: 001a70;
+  background: #001a70;
   border: none;
   color: #fff;
   font-size: 2rem;
