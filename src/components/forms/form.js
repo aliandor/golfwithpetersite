@@ -178,11 +178,12 @@ const Lesson = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
-  background: #c4c4c444;
+  
   padding: 0.5rem;
   align-items: flex-start;
   label {
     width: 50%;
+    background: #c4c4c444;
     transform: translateX(7px) translateY(18px);
     /* background: #10b52388; */
   }
@@ -197,8 +198,9 @@ const Lesson = styled.div`
   }
   select {
     background: none;
+    background: #c4c4c444;
     border: none;
-    border-bottom: 4px solid #c4c4c444;
+//     border-bottom: 4px solid #c4c4c444;
     &:focus {
       border-bottom: 2px solid #001a70;
     }
