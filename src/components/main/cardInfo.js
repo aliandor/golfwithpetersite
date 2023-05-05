@@ -79,7 +79,7 @@ export const Group = {
   img:
     'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1548745026/GolfWithPeter/activity-background-bags-424766.jpg',
   alt: 'Peter Barrow Group Lessons',  
-  price: '$160',
+  price: '$175',
   type: 'Group',
   desc:
     'This special group package lets you and your golf crew play and learn together with coach Peter.',
