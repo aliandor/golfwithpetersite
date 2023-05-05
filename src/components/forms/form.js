@@ -46,9 +46,9 @@ const Form = () => {
           <Lesson>
             <label for="Class-type">Lesson Type:</label>
             <select name="Class-type" required>
-              <option value="Adult">Adult - $60 - 30 mins</option>
-              <option value="Junior">Junior - $50 - 30 mins</option>
-              <option value="Group">Group - $160 - 60 mins</option>
+              <option value="Adult">Adult - $65 - 30 mins</option>
+              <option value="Junior">Junior - $55 - 30 mins</option>
+              <option value="Group">Group - $175 - 60 mins</option>
               <option value="Bag Mapping">Bag Mapping - $120 - 75mins</option>
             </select>
           </Lesson>
