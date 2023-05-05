@@ -23,7 +23,7 @@ export const Individual = {
   img:
     'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1549322970/GolfWithPeter/F78C4A8B-BE0C-4A20-BB0E-5A9BC46477C9.jpg',
   alt: 'Altadena Golf Course',
-  price: '$60',
+  price: '$65',
   type: 'Adult',
   desc:
     'This one-on-one session gives you coach Peter’s undivided attention to help you improve on the areas you want to work on.',
@@ -51,7 +51,7 @@ export const Junior = {
   img:
     'https://res.cloudinary.com/dnsdvh13n/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_512/v1549961135/GolfWithPeter/3294.jpg',
   alt: 'Peter Barrow with junior lesson students',
-  price: '$50',
+  price: '$55',
   type: 'Junior',
   desc:
     'No matter the skill level of your junior golfer, coach Peter will design a framework to get you the results you desire.',
